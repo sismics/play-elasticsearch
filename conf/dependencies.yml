@@ -1,7 +1,22 @@
-self: play -> elasticsearch 0.1
+self: play -> elasticsearch 0.2.0
 
 require:
     - play
     - org.elasticsearch.client -> transport 5.2.2
-    - org.apache.logging.log4j -> log4j-api 2.8.1
-    - org.apache.logging.log4j -> log4j-core 2.8.1
+    - org.apache.logging.log4j -> log4j-api 2.8.2
+    - org.apache.logging.log4j -> log4j-core 2.8.2:
+        exclude:
+            - com.beust -> *
+            - com.conversantmedia -> *
+            - com.fasterxml.jackson.core -> *
+            - com.fasterxml.jackson.dataformat -> *
+            - com.fasterxml.woodstox -> *
+            - com.lmax -> *
+            - com.sun.mail -> *
+            - org.apache.commons -> *
+            - org.apache.kafka -> *
+            - org.apache.logging.log4j -> *
+            - org.eclipse.persistence -> *
+            - org.fusesource.jansi -> *
+            - org.jctools -> *
+            - org.zeromq -> *
