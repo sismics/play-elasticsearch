@@ -1,4 +1,8 @@
-self: play -> elasticsearch 0.2.0
+self: play -> elasticsearch 1.0.0
+
+configurations:
+    - provided:
+          exclude: true
 
 require:
     - play

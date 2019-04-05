@@ -10,7 +10,7 @@ This plugin adds [Elasticsearch](https://en.wikipedia.org/wiki/Elasticsearch) su
 
 ```
 require:
-    - elasticsearch -> elasticsearch 0.2.0
+    - elasticsearch -> elasticsearch 1.0.0
 
 repositories:
     - sismics:
