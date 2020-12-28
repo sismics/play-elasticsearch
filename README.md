@@ -1,3 +1,6 @@
+[![GitHub release](https://img.shields.io/github/release/sismics/play-elasticsearch.svg?style=flat-square)](https://github.com/sismics/play-elasticsearch/releases/latest)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
 # play-elasticsearch plugin
 
 This plugin adds [Elasticsearch](https://en.wikipedia.org/wiki/Elasticsearch) support to Play! Framework 1 applications.
@@ -10,7 +13,7 @@ This plugin adds [Elasticsearch](https://en.wikipedia.org/wiki/Elasticsearch) su
 
 ```
 require:
-    - elasticsearch -> elasticsearch 1.0.0
+    - elasticsearch -> elasticsearch 1.1.0
 
 repositories:
     - sismics:
